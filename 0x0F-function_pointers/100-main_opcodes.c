@@ -22,6 +22,16 @@ void print_opcodes(char *a, int n)
 	}
 	printf("\n");
 }
+/**
+ *
+ *  * main - prints the opcodes of its own main function
+ *
+ *   * @argc: integer
+ *
+ *    * @argv: character
+ *
+ *     * Return: always 0.
+ */
 
 int main(int argc, char *argv[])
 {
