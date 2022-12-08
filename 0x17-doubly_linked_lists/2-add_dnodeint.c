@@ -1,4 +1,8 @@
 #include "lists.h"
+
+/**
+ *  * print_dlistint - Prints all the elements of a dlistint_t list.
+ */
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
 	dlistint_t *temp, *node = malloc(sizeof(dlistint_t));
