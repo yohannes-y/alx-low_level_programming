@@ -1,4 +1,11 @@
 #include "lists.h"
+
+/**
+ *  * sum_dlistint - Sums all the data of a dlistint_t list.
+ *   * @head: The head of the dlistint_t list.
+ *    *
+ *     * Return: The sum of all the data.
+ */
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 	dlistint_t *new_node = malloc(sizeof(dlistint_t));
