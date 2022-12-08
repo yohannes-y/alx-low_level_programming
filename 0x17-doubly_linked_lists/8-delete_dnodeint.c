@@ -3,7 +3,6 @@
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
 	dlistint_t *node;
-
 	unsigned int count;
 
 	if (*head == NULL)
@@ -42,5 +41,6 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 		node->next = NULL;
 		return (1);
 	}
+
 	return (-1);
 }
